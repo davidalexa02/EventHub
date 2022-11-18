@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969094996835",
+    "project_id": "androideventhub-70994",
+    "storage_bucket": "androideventhub-70994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969094996835:android:464beaaf6bbb90a900a956",
+        "android_client_info": {
+          "package_name": "com.example.eventhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969094996835-511drgo2snor7r34da8uf4dma02d7trm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxQjhVlqJfWlFzTi_A09o8wSS94Ga9dCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969094996835-511drgo2snor7r34da8uf4dma02d7trm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
