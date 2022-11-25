@@ -2,11 +2,20 @@
     <string name="app_name">EventHub</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="login_fragment_label">Login Fragment</string>
+    <string name="signup_fragment_label">Sign Up Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_first_fragment">Hello World</string>
+    <string name="roll">Roll</string>
+    <string name="email">Adresa de e-mail</string>
+    <string name="password">Parola</string>
+    <string name="name">Numele și Prenumele</string>
+    <string name="confirm">Confirmă parola</string>
+    <string name="enter">INTRĂ ÎN CONT</string>
+    <string name="register">CREEAZĂ CONT</string>
+    <string name="authentification"><b>Autentifică-te</b></string>
+    <string name="registration"><b>Înregistrează-te</b></string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
