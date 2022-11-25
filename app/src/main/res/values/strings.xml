@@ -16,6 +16,7 @@
     <string name="enter">INTRĂ ÎN CONT</string>
     <string name="register">CREEAZĂ CONT</string>
     <string name="authentification"><b>Autentifică-te</b></string>
+    <string name="error">Error message</string>
     <string name="registration"><b>Înregistrează-te</b></string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
