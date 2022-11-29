@@ -18,5 +18,8 @@
     <string name="authentification"><b>Autentifică-te</b></string>
     <string name="error">Error message</string>
     <string name="registration"><b>Înregistrează-te</b></string>
+    <string name="required"></string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="form_snackbar_action">Salir?</string>
+    <string name="form_snackbar_msg_success">great!</string>
 </resources>

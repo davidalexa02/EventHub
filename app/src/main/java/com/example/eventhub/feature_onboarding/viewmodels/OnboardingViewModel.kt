@@ -8,7 +8,7 @@ class OnboardingViewModel () : ViewModel() {
 //         insert your logic here
         class OnboardingViewModelFactory() :
             ViewModelProvider.Factory {
-            override fun <T : ViewModel> create(OnboardingViewModel: Class<T>): T {
+            override fun <T : ViewModel> create(modelClass: Class<T>): T {
                 return OnboardingViewModel() as T        }
         }
 }

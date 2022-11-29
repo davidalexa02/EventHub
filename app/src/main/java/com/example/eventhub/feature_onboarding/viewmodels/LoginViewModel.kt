@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModelProvider
 
 class LoginViewModel() : ViewModel() {
         class LoginViewModelFactory() : ViewModelProvider.Factory {
-            override fun <T : ViewModel> create(LoginViewModel: Class<T>): T {
+            override fun <T : ViewModel> create(modelClass: Class<T>): T {
                 return LoginViewModel() as T        }
         }
     }
