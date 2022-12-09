@@ -36,6 +36,10 @@ private var _binding: FragmentLoginBinding? = null
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
+        binding.loginButton.setOnClickListener {
+            findNavController().navigate(R.id.action_LoginFragment_to_homeActivity)
+        }
+
     }
 override fun onDestroyView() {
         super.onDestroyView()

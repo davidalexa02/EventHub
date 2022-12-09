@@ -22,4 +22,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="form_snackbar_action">Salir?</string>
     <string name="form_snackbar_msg_success">great!</string>
+    <string name="search_hint">Cauta evenimente</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

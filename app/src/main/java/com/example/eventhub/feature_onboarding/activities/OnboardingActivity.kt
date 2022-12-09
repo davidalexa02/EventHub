@@ -23,8 +23,7 @@ class OnboardingActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityOnboardingBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_onboarding)
 
 //        loginButton.setOnclickListener(this)
 
