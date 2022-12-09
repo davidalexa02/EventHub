@@ -3,6 +3,7 @@ package com.example.eventhub.feature_onboarding.activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Surface
+import android.view.View
 import androidx.compose.material.MaterialTheme
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -25,7 +26,21 @@ class OnboardingActivity : AppCompatActivity() {
         binding = ActivityOnboardingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+//        loginButton.setOnclickListener(this)
+
     }
+
+//    private fun validate: Boolean{
+//        if(name_)
+//    }
+
+//    override fun onClick(v: View?) {
+//        when(v?.id){
+//            R.id.loginButton->{
+//
+//            }
+//        }
+//    }
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
