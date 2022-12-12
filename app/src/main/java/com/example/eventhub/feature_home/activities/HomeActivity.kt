@@ -32,6 +32,14 @@ class HomeActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_home)
         val navView: BottomNavigationView = findViewById(R.id.bottom_bar_nav_view)
         navView.setupWithNavController(navController)
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            if(destination.id == R.id.OrganiseEventFragment) {
+                navView.visibility = View.GONE
+            } else {
+
+                navView.visibility = View.VISIBLE
+            }
+        }
 
     }
 
