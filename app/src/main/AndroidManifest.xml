@@ -4,6 +4,7 @@
     package="com.example.eventhub">
 
     <application
+        android:name="com.example.eventhub.commons.data.EventHubApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -17,11 +18,13 @@
             android:name="com.example.eventhub.feature_organiseevent.fragments.OrganiseEventFragment"
             android:exported="false"
             android:theme="@style/Theme.EventHub.NoActionBar"
-            tools:ignore="Instantiatable" />
+            tools:ignore="Instantiatable"
+            android:fitsSystemWindows="true"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name="com.example.eventhub.feature_home.activities.HomeActivity"
             android:exported="false"
-            android:theme="@style/Theme.EventHub.NoActionBar" />
+            android:theme="@style/Theme.EventHub.NoActionBar"/>
         <activity
             android:name="com.example.eventhub.feature_splash.activities.SplashActivity"
             android:exported="true"

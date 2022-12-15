@@ -20,4 +20,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
     <style name="Theme.EventHub.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.EventHub.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Button.Red" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/orange_80</item>
+    </style>
 </resources>
